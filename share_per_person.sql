@@ -1,5 +1,5 @@
 SELECT ldate AS shimo_day,
-       '人均协作次数' AS metric_names,
+       '人均分享次数' AS metric_names,
        avg(share_times) AS nums
 FROM
   (SELECT ldate,
